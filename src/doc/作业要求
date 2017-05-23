@@ -1,0 +1,128 @@
+JVM 主题 第9次作业
+实现二叉查找树的操作BinarySearchTree.java ， 包括
+(1) 按层次遍历： levelVisit
+(2)判断一个二叉树是不是二叉查找树
+(3) 获取两个节点的最小公共祖先
+(4) 给定两个值， 获得处于这两个值中间的节点
+
+JVM 主题第8次作业
+1. 用代码模拟以下溢出
+(1)Java堆溢出 OutOfMemory
+(2)虚拟机栈溢出 StackOverflowError
+(3) 永久代溢出 OutOfMemory :PermGen space
+2.数据结构
+实现二叉查找树的操作 BinarySearchTree.java ，并且pass测试用例BinarySearchTreeTest.java
+
+
+JVM 主题第7次作业
+1. 数据结构  ， 实现FileList.java （给定一个目录，递归的列出下面所有的子目录和文件）
+实现BinaryTreeUtil.java ， 包括用递归方式来实现对二叉树的前序，中序，后序遍历，  用非递归方式实现对二叉树的前序和中序遍历。 需要通过测试用例BinaryTreeUtilTest.java
+2. 写一篇文章
+提交期限： 5月14日晚12点
+
+JVM 主题第6次作业
+1. 数据结构  ， 实现QuickMinStack.java， StackWithTwoQueues.java， TwoStackInOneArray.java
+2. 写一篇文章
+提交期限： 5月7日晚12点
+
+JVM 第5次作业
+1. 实现一个简单的执行引擎， 主要代码 engine  cmd
+2. 数据结构， 实现循环队列CircleQueue.java，约瑟夫环Josephus.java ， 用两个栈实现队列QueueWithTwoStacks.java  
+3. 写一篇文章
+提交期限： 4月30日晚12点
+
+JVM 第4次作业
+1. 把字节码指令转变为java 对象 ，需要实现的类： CommandParser.java 测试 
+2. 实现类似的javap 命令，需要实现的类：ClassFilePrinter.java
+3. 数据结构， 实现前缀表达式计算PrefixExpr.java ， 后缀表达式计算 PostfixExpr.java  
+中缀表达式转后缀表达式 InfixToPostfix.java
+4. 写一篇文章
+注意： 从本周开始， 我把我的作业和答案的项目分开了：
+例如
+数据结构作业  /liuxin/data-structure/assignment/ 
+数据结构答案 /liuxin/data-structure/answer
+JVM作业： /liuxin/mini-jvm/assignment
+JVM答案：/liuxin/mini-jvm/answer
+
+提交期限： 4月23号晚12点
+
+JVM第3次作业
+1. 实现对一个.class文件的字段和方法的读取 ， 代码链接
+    需要实现的类是ClassFileParser.java及其相关的类  实现后需要通过测试：ClassFileloaderTest.java
+2. 数据结构， 实现InfixExpr.java  ， 需要通过InfixExprTest.java
+3. 写一篇文章
+
+截止日期： 4月16号
+
+
+JVM第2次作业
+1. 实现对一个.class文件的常量池读取 ， 代码链接
+    需要实现的类是ClassFileParser.java,  ByteCodeIterator.java,  实现后需要通过测试：ClassFileloaderTest.java
+2. 数据结构， 实现StackUtil
+3. 写一篇文章
+
+截止日期： 4月9号
+
+
+JVM第1次作业
+从本周（3-27）开始， 二群和一群就同步了， 本周作业如下：
+1. 完成对一个.class文件的读取和对.class 文件开头四个字节的魔数的判断
+    代码链接   需要实现ClassLoader.java 并通过测试
+2. 实现LRU算法 ，代码链接  ， 需要实现LRUPageFrame.java，并通过测试
+3. 写一篇文章
+
+
+截止日期： 4月9号
+
+
+第三周作业内容
+0. 第二周作业的讲解
+用TDD完成lite-struts, 大家一定要看看： http://pan.baidu.com/s/1kUXPrJD 密码：xktp
+
+1. 完成多线程下载文件
+
+漫谈进程和线程+第三周作业布置视频：http://pan.baidu.com/s/1eRLijWQ 密码:pr7w
+
+代码：https://github.com/onlyliuxin/coding2017/tree/master/liuxin/src/com/coderising/download
+
+2. 完成针对LinkedList上的操作
+https://github.com/onlyliuxin/coding2017/blob/master/liuxin/src/com/coding/basic/LinkedList.java
+据一群同学反映，removeDuplicateValues（），removeRange（）这两个方法比较难于实现， 可以不做
+
+3. 写一篇文章，主题自定
+
+提交期限：
+3月26日晚上12点
+
+
+
+第二周作业内容
+1. 完成ArrayUtil这个类中的方法
+代码： https://github.com/onlyliuxin/coding2017/blob/master/liuxin/src/com/coderising/array/ArrayUtil.java
+2. 完成一个简单的类似Struts 的小程序
+https://github.com/onlyliuxin/coding2017/tree/master/liuxin/src/com/coderising/litestruts
+
+3. 写一篇文章
+提交期限
+3月19日晚上12点
+
+
+
+第一周作业内容
+1. 完成基本的数据结构
+2. 写一篇文章
+提交期限
+3月12日晚上12点
+相关链接
+
+作业的代码框架: https://github.com/onlyliuxin/coding2017/tree/master/liuxin/src/com/coding/basic
+注意: LinkedList 当中有很多方法， 从reverse()开始的方法不用实现
+
+
+
+
+
+
+
+
+
